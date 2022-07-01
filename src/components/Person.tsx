@@ -1,4 +1,4 @@
-type PersonProps = {
+interface PersonProps {
   name: {
     first: string;
     last: string;

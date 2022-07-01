@@ -1,4 +1,4 @@
-type GreetProps = {
+interface GreetProps {
   name: string;
   messageCount: number;
   isLoggedIn: boolean;
